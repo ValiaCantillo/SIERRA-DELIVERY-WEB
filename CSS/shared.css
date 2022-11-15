@@ -1,0 +1,98 @@
+/*INDEX STYLE*/
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fraunces', serif;
+}
+
+/*STYLING THE HEADER*/
+header {
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(96deg,#DDC2C1,#779CCA,#7176B6 );
+    color: rgba(46, 3, 68, 0.489);
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    position:fixed;
+    top:0;
+}
+
+.left {
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.sm{
+    border: #7176B6 solid 3px;
+}
+
+h1, h6 {
+    margin: 0;
+    padding: 0; 
+}
+
+#logo{
+    max-width: 20%;
+    max-height: 20%;  
+    aspect-ratio: 5/4;   /* sets a preferred aspect ratio for the box, which will be used in the calculation of auto sizes and some other layout functions.*/
+ }
+
+.top h1 h6 {
+    max-width: 40%; 
+    font-family: 'Fraunces', sans-serif;
+    font-size: 5px;
+    flex-wrap: nowrap;  
+}
+
+  /*STYLING THE MENU*/
+.menu {
+    width: 100%;
+    height: 3%;
+    margin: 0%;
+    padding: 1% 3%;
+    overflow: hidden;
+}
+
+.nav-list {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+}
+
+.nav-link {
+    padding: 0.2rem;
+    margin: 0 0.2rem;
+    color: white;
+    display: block;
+    text-decoration: none;
+    
+    /*width: 65%; */
+}
+
+.menu ul li a:active {
+    background-color: #7176b6;
+    color: white;
+}
+
+.menu ul li a:hover:not(.active) {
+    background-color: #806f71;
+    color: #1c1c22;
+    cursor: pointer;
+}
+

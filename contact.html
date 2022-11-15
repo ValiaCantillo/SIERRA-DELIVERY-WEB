@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario de contact.</title>
+        <link href="CSS/shared.css" rel="stylesheet" type="text/css" />
+        <link href="CSS/contact.css" rel="stylesheet" type="text/css" />
+        <link href="ASSETS/body_image.ico" rel="icon" />
+        <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap" rel="stylesheet">
+        <script src="JAVASCRIPT/main.js" type="text/javascript"></script>
+    </head>
+    <body onload="initial()">
+        <header>
+            <div class="left">
+                <a href="./">
+                    <img id="logo" src="ASSETS/LOGrado.svg" alt="Logo de la compania"/>
+                </a>
+            </div>
+            <div class=" top right">
+                <h1> SIERRA DELIVERY LLC</h1>
+                <h6 class="center" >SERVICIO DE TRANSPORTE RAPIDO, EFICIENTE</h6>
+            </div>
+            <div class="menu">
+            <nav >
+                <ul class="nav-list ">
+                    <li class="center"><a class="nav-link" href="history.html" target="_top">HISTORY </a></li>
+                    <li class="center"><a class="nav-link" href="service.html"> SERVICES</a></li>
+                    <li class="center"><a class="nav-link" href="whatweoffer.html">WHAT WE OFFER</a></li>
+                    <li class="center"><a class="nav-link" href="clientes.html">CLIENTES</a></li>
+                    <li class="center"><a class="nav-link" href="flota.html">FLOTA</a></li>
+                    <li class="center"><a class="nav-link" href="contact.html">CONTACT ME</a> </li>
+                </ul>
+            </nav>                
+            </div>
+        </header> 
+        <main>
+            <div class="left">
+               <h2>How to Find Us</h2>
+                <p>
+                    DATOS DE CONTACTO <br><br>
+                    sierradeliveryllc@gmail.com<br>
+                   832-873-8604
+               </p>
+               <p> Si usted tiene alguna consulta o duda puede utilizar el siguiente formulario y nos comunicaremos con usted tan pronto sea posible.</p> 
+            </div>
+            <form action="http://midominio.com/miservicioWeb.php"  method="post" class="left"><!--action debe llamar a mi method get Javascript-->
+                <section role="region" aria-labelledby="datos-usuario">
+                    <fieldset>
+                        <legend>Datos del usuario</legend>          
+                        <label for="nombre">Nombre: <input name="nombre" id="nombre" type="text" placeholder="Escribe tu nombre aqui" required autofocus/>
+</label>     
+                        <br/>
+                        <label for="apellidos">Apellidos: <input name="apellidos" id="apellidos" type="text" placeholder="Escribe tus apellidos aqui" required autofocus/>
+</label>
+                        <br/>
+                        <label for="edad">Edad: <input name="edad" id="edad" type="number" min="18" max="120" required autofocus/></label>     
+                        <br/>
+                        <label for="clave">Contraseña: <input name="clave" id="clave" type="password" pattern="[a-z0-5]{8,}" placeholder="Escribe tu password aqui" required autofocus /></label>     
+                        <br />
+                        <label for="mail">Email: <input name="mail" id="mail" type="email" placeholder="Email" required autofocus/></label>     
+                    </fieldset>
+                </section>
+                <section role="region" aria-labelledby="accept-terms">
+                    <label><input type="checkbox" required /> I accept the <a href="#blank">terms and conditions</a></label>
+                        <br/>
+                        <button id="submitf" type="submit" value="Enviar Formulario">Enviar</button>
+                        <button id="resetf" type="reset" value="Borrar">Borrar</button>
+                </section>
+            </form>
+            <div class="right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100896.67455810253!2d-95.58774736518443!3d30.166880900680326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86473147c603385b%3A0xf1a4808e67c3df5d!2sThe%20Woodlands%2C%20TX!5e1!3m2!1sen!2sus!4v1668179290167!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </main>
+        <!-- inlcuir un google maps y no soy un robot forma-->
+    <div class="sm"></div>
+    <footer><!--footer-->
+        <address>
+            sierradeliveryllc@gmail.com<br>
+            (832) 873 - 8604<br>
+            Houston,TX<br>
+            USA<br>
+        </address>
+        <section id="for-contact"> 
+            <div>
+                <ul>
+                    <li>sierradeliveryllc@gmail.com</li>
+                    <li>(832) 873 - 8604</li>
+                    <li>11300 Beaumont Hwy, Houston,TX, 77063</li>
+                </ul>
+            </div>
+        </section>
+        <div>© 2022 SIERRA DELIVERY LLC - TODOS LOS DERECHOS RESERVADOS</div>
+    </footer> 
+    </body>
+</html>

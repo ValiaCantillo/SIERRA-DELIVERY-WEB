@@ -1,0 +1,94 @@
+
+/* 
+@media screen and (max-width: 600px) {
+    .horizontal ul li.right, .horizontal ul li{float: none;}  
+    ul .text-menu li.right, ul .text-menu li{float: none;}  
+ } */
+
+
+   /* STYLING THE THREE COLUMNS*/ 
+.content{
+    margin: 0 auto;
+    padding: 5px 30px;  
+    width: 40%;
+    color: #1c1c22;
+}
+
+#colum123{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+   /*  ABOUT STYLE
+ #about{
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+
+ } 
+    FOOTER STYLE
+  #for-contact{
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+} 
+
+    HISTORY
+ P{
+    text-align: justify;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+} 
+
+#mainbody{
+    display: inline;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+ WHAT WE OFFER STYLE
+
+#contents{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: azure;
+    display: flex;
+}
+
+.bloque_izq{
+    display: inline-block;
+    display:flex;
+    flex-direction:row-reverse;
+    width: 40%;
+}
+
+.bloque_dch{
+    display: inline-block;
+    display:flex;
+    width: 40%;
+}
+CONTACTANOS SYTLE
+
+label{
+    width: 130px;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+
+
+#submitf{
+    align-items:flex-end;
+}
+
+#resetf{
+    align-items: left;
+}*/
