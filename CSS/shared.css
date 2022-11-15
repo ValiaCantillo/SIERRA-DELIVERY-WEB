@@ -96,3 +96,10 @@ h1, h6 {
     cursor: pointer;
 }
 
+
+
+/*STYLING THE FOOTER*/
+footer{
+    display: flex;
+    justify-content: center;
+}
