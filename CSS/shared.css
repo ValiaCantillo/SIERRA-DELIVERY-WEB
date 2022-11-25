@@ -17,7 +17,12 @@ header {
     justify-content: space-between;
     align-items:center;
     position:fixed;
+    flex-direction: column;
     top:0;
+}
+
+.wrapper{
+    witdh:100%;
 }
 
 .left {
