@@ -1,79 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Mobile device view-->
-        <meta name="description" content="trucking bussiness SIERRA DELIVERY" >
-        <title>Sierra Delivery LLC</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,100;1,9..144,200&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
-        <script src="JAVASCRIPT/main.js" type="text/javascript"></script>
-        <link href="CSS/shared.css" rel="stylesheet" type="text/css" />
-        <link href="CSS/style.css" rel="stylesheet" type="text/css" />
-        <link href="ASSETS/body_image.ico" rel="icon" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Mobile device view-->
+    <meta name="description" content="trucking bussiness SIERRA DELIVERY" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,100;1,9..144,200&family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="JAVASCRIPT/main.js" type="text/javascript"></script>
+    <!--Adding BOOTSTRAP 5-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link href="CSS/shared.css" rel="stylesheet" type="text/css" />
+    <link href="CSS/style.css" rel="stylesheet" type="text/css" />
+    <link href="ASSETS/body_image.ico" rel="icon" />
+    <title>Sierra Delivery LLC</title>
+  </head>
 
-    </head>
-
-    <body>
-        <header>
-            <div class="left">
-                <a href="./">
-                    <img id="logo" src="ASSETS/LOGrado.svg" alt="Logo de la compania"/>
-                </a>
-            </div>
-            <div class=" top right">
-                <h1> SIERRA DELIVERY LLC</h1>
-                <h6 class="center" >SERVICIO DE TRANSPORTE RAPIDO, EFICIENTE</h6>
-            </div>
-            <div class="menu">
-            <nav >
-                <ul class="nav-list ">
-                    <li class="center"><a class="nav-link" href="history.html" target="_top">HISTORY </a></li>
-                    <li class="center"><a class="nav-link" href="service.html"> SERVICES</a></li>
-                    <li class="center"><a class="nav-link" href="whatweoffer.html">WHAT WE OFFER</a></li>
-                    <li class="center"><a class="nav-link" href="clientes.html">CLIENTES</a></li>
-                    <li class="center"><a class="nav-link" href="flota.html">FLOTA</a></li>
-                    <li class="center"><a class="nav-link" href="contact.html">CONTACT ME</a> </li>
-                </ul>
-            </nav>                
-            </div>
-        </header> 
-        <main>
-            <div class="content" >
-                <section id="colum123">
-                    <div id="col1 " class="left">
-                        <h3>SERVICES</h3>
-                        <p>Gestionamos el servicio de transportar su material con la mayor calidad y seguridad haciendola nuestra hasta la entrega en destino.
-                            <!--background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(245, 62, 113) 50%, rgb(162, 27, 27) 100%);      poner boton con link a pagina de servicios-->
-                        </p>
-                    </div>
-                    <div id="col2" class="center">
-                        <h3>CLIENTS</h3>
-                        <p> Buscamos la excelencia al crecer junto con nuestros socios.
-                        </p>
-                        <!--poner boton con link a pagina de clientes-->
-                    </div>
-                    <div id="col3" class="right">
-                        <h3>FLOTA</h3>
-                    </div>
-                </section>
-                <div>
-                    <p>
-                    Tenemos unidades versatiles con tecnologia de ultima generacion.
-                </p>
-                </div>
-            </div>   
-        </main>
-        <div class="sm"></div>
-        <footer class="center"><!--footer-->
-            <address>
-                sierradeliveryllc@gmail.com<br>
-                (832) 873 - 8604<br>
-                Houston,TX<br>
-                USA<br>
-            </address>
-            <!--section id="for-contact"> 
+  <body>
+    <header>
+      <div class="text">
+        <h1>SIERRA DELIVERY LLC</h1>
+        <h6 class="center">SERVICIO DE TRANSPORTE RAPIDO, EFICIENTE</h6>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="./">
+          <img
+            id="logo"
+            src="ASSETS/LOGOcuadrado.png"
+            alt="Logo de la compania"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="history.html" target="_top">HISTORY </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html"> SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="whatweoffer.html">WHAT WE OFFER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="clientes.html">CLIENTES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="flota.html">FLOTA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT ME</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>SERVICES</h3>
+            <p>
+              Gestionamos el servicio de transportar su material con la mayor
+              calidad y seguridad haciendola nuestra hasta la entrega en
+              destino.
+              <!--background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(245, 62, 113) 50%, rgb(162, 27, 27) 100%);      poner boton con link a pagina de servicios-->
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3>CLIENTS</h3>
+            <p>Buscamos la excelencia al crecer junto con nuestros socios.</p>
+            <!--poner boton con link a pagina de clientes-->
+          </div>
+          <div class="col-md-4">
+            <h3>FLOTA</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+        <div>
+          <p>
+            Tenemos unidades versatiles con tecnologia de ultima generacion.
+          </p>
+        </div>
+      </div>
+    </main>
+    <div class="sm"></div>
+    <footer class="center">
+      <!--footer-->
+      <address>
+        sierradeliveryllc@gmail.com<br />
+        (832) 873 - 8604<br />
+        Houston,TX<br />
+        USA<br />
+      </address>
+      <!--section id="for-contact"> 
                 <div>
                     <ul>
                         <li>sierradeliveryllc@gmail.com</li>
@@ -82,8 +126,7 @@
                     </ul>
                 </div>
             </!--section>-->
-            <div>© 2022 SIERRA DELIVERY LLC - TODOS LOS DERECHOS RESERVADOS</div>
-        </footer>  
-    </body>
-</html>    
-
+      <div>© 2022 SIERRA DELIVERY LLC - TODOS LOS DERECHOS RESERVADOS</div>
+    </footer>
+  </body>
+</html>
