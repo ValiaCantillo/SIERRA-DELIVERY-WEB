@@ -28,6 +28,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+<<<<<<< HEAD
     align-items: stretch;
     top: 0;
 }
@@ -38,6 +39,21 @@ header {
     width: fit-content;
     /*aspect-ratio: 5/4;   /* sets a preferred aspect ratio for the box, which will be used in the calculation of auto sizes and some other layout functions.*/
  }
+=======
+    align-items:center;
+    position:fixed;
+    flex-direction: column;
+    top:0;
+}
+
+.wrapper{
+    witdh:100%;
+}
+
+.left {
+    float: left;
+}
+>>>>>>> 696d0455478c783a01d29a72629778777196c83e
 
 .text{
     margin: 0;
