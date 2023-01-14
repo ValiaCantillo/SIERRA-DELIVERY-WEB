@@ -20,4 +20,12 @@ section {
     cursor: pointer;
 }
 
+/* haciendo prueba enlas columnas*/
+#prueba{ 
+    min-height: 800px;
+    background-image:url("../ASSETS/truck1.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 
